@@ -1,12 +1,12 @@
-@INBOX_PRIM_COL: rgb(66, 133, 244);
+@INBOX_PRIM_COL: rgb(255, 255, 255);
 @INBOX_SEC_COL: rgb(42, 117, 243);
-@GMAIL_PRIM_COL: rgb(220, 75, 75);
+@GMAIL_PRIM_COL: rgb(255, 255, 255);
 @GMAIL_SEC_COL: rgb(216, 54, 54);
 
-@ITEM_SIZE: 50px;
-@ITEM_BORDER_SIZE: 4px;
+@ITEM_SIZE: 40px;
+@ITEM_BORDER_SIZE: 1px;
 
-@INDICATOR_SIZE: 6px;
+@INDICATOR_SIZE: 0px;
 
 .mailbox-list {
 
@@ -27,13 +27,13 @@
 		******************************************************/
 
 		.mailbox {
-			margin: 10px auto;
+			margin: 15px auto;
 			width: @ITEM_SIZE;
 			height: @ITEM_SIZE;
 			overflow: hidden;
 			cursor: pointer;
 			border-radius: 50%;
-			border: @ITEM_BORDER_SIZE solid white;
+			border: 1px solid #263238;
 
 			&:hover {
 				box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.5);

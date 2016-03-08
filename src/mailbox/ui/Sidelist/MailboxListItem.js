@@ -223,6 +223,7 @@ module.exports = React.createClass({
           badgeContent={mailbox.unread}
           className='unread-badge'
           badgeStyle={{
+            fontSize: '11px',
             backgroundColor: 'rgba(238, 54, 55, 0.95)',
             color: Styles.Colors.red50
           }}/>
